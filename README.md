@@ -3,3 +3,4 @@ Programa creado en Netbeans con Java que permite encontrar raices de funciones u
 
 
 ![alt text] (https://github.com/JoseLuis-AL/Graficadora-Metodos-Numericos/blob/master/Imagenes/Interfaz.PNG)
+![Screenshot](Imagenes/Interfaz.png)
