@@ -1,6 +1,8 @@
 # Graficadora-Metodos-Numericos
 Programa creado en Netbeans con Java que permite encontrar raices de funciones utilizando los metodos de Newton-Raphson y Bisección, también grafica la función y la raíz encontrada.
 
+En el archivo MetodosNumericos.java, se encuentran la definición de las funciones. Si lo que quieres es cambiar las funciones, cambia los métodos F y Df (La función y su derivada respectivamente).
+
 
 ## Interfaz gráfica del programa
 ![Screenshot](https://github.com/JoseLuis-AL/Graficadora-Metodos-Numericos/blob/master/Imagenes/Interfaz.PNG)
