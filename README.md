@@ -11,6 +11,6 @@ En el archivo MetodosNumericos.java, se encuentran la definición de las funcion
 ![Screenshot](https://github.com/JoseLuis-AL/Graficadora-Metodos-Numericos/blob/master/Imagenes/Aproximaci%C3%B3nNewton.PNG)
 
 ### Aproximación de la raíz positiva usando el método de Bisección.
-Intervalo = [-1, 3]
+Intervalo = [-1, 3] <br>
 Error de truncamiento = 5.0x10^(-4)
 ![Screenshot](https://github.com/JoseLuis-AL/Graficadora-Metodos-Numericos/blob/master/Imagenes/AproximacionBiseccion.PNG)
