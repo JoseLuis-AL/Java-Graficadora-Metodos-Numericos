@@ -9,3 +9,6 @@ Programa creado en Netbeans con Java que permite encontrar raices de funciones u
 ![Screenshot](https://github.com/JoseLuis-AL/Graficadora-Metodos-Numericos/blob/master/Imagenes/Aproximaci%C3%B3nNewton.PNG)
 
 ### Aproximación de la raíz positiva usando el método de Bisección.
+Intervalo = [-1, 3]
+Error de truncamiento = 5.0x10^(-4)
+![Screenshot](https://github.com/JoseLuis-AL/Graficadora-Metodos-Numericos/blob/master/Imagenes/AproximacionBiseccion.PNG)
