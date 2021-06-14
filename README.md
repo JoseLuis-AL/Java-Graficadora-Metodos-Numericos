@@ -1,23 +1,38 @@
-# Graficadora-Metodos-Numericos
+# Graficación de métodos numéricos
 
-#### Creadores:
-(Estudiantes de la Licenciatura en Ciencias de la Computación, universidad de sonora):
+## Introducción
+
+**¿Quienes somos?**  
+Somos estudiantes de la Licenciatura en CIencias de la Computación en la Universidad de Sonora, México.
+
+Nombres:
 - Aguilera Luzania José Luis.
 - Castro Márquez Francisco Javier.
 - Monge Tinoco Manuel Crisólogo.
 
-#### Descripción:
-Programa creado en Netbeans con Java que permite encontrar raices de funciones utilizando los metodos de Newton-Raphson y Bisección, también grafica la función y la raíz encontrada.
+**Objetivo**  
+El objetivo de este trabajo es demostrar el conocimiento sobre el lenguaje de programación Java desarrollando una aplicación que permita encontrar la raíz de una función usando los métodos numéricos de Bisección y Newton-Raphson, con las siguientes características:
+- Debe tener un panel que muestre la gráfica de la función.
+- Debe tener un panel que muestre los campos necesarios para cada método.
+	- Debe tener un botón o menú para elegir el método a utilizar.
+	- Cuando encuentre una raíz debe mostrar su posición en la gráfica y su valor en el panel.
+	- Los campos no necesarios para el método seleccionado deben estar deshabilitados.
 
-En el archivo MetodosNumericos.java, se encuentran la definición de las funciones. Si lo que quieres es cambiar las funciones, cambia los métodos F y Df (La función y su derivada respectivamente).
+## Interfaz
 
-#### Interfaz gráfica del programa
-![Screenshot](https://github.com/JoseLuis-AL/Graficadora-Metodos-Numericos/blob/master/Imagenes/Interfaz.PNG)
+<p align="center">
+  <img  src="Imagenes/nuevaUI.png">
+</p>
 
-#### Aproximación de la raíz negativa usando el método de Newton-Raphson.
-![Screenshot](https://github.com/JoseLuis-AL/Graficadora-Metodos-Numericos/blob/master/Imagenes/Aproximaci%C3%B3nNewton.PNG)
 
-#### Aproximación de la raíz positiva usando el método de Bisección.
-Intervalo = [-1, 3] <br>
-Error de truncamiento = 5.0x10^(-4)
-![Screenshot](https://github.com/JoseLuis-AL/Graficadora-Metodos-Numericos/blob/master/Imagenes/AproximacionBiseccion.PNG)
+## Ejemplo
+
+**Método de Bisección**
+<p align="center">
+  <img  src="Imagenes/nuevaUIBiseccion.png">
+</p>
+
+**Método de Newton-Raphson**
+<p align="center">
+  <img  src="Imagenes/nuevaUINewton.png">
+</p>

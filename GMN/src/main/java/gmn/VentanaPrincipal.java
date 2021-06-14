@@ -3,9 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package GMN_Tarea2;
+package gmn;
 
 import java.awt.BorderLayout;
+import panels.PanelConfig;
+import panels.PanelGrafica;
 
 /**
  *
@@ -13,24 +15,30 @@ import java.awt.BorderLayout;
  * @author Castro Márquez Francisco Javier.
  * @author Monge Tinoco Manuel Crisólogo.
  */
-public class MainWindow extends javax.swing.JFrame {
-    
-    /** ATRIBUTOS **/
-    private ControlPanel controlPanel;
-    
+public class VentanaPrincipal extends javax.swing.JFrame {
+
+    PanelGrafica panelGrafica;
+    PanelConfig panelConfig;
+
     /**
      * Creates new form MainWindow
      */
-    public MainWindow() {
+    public VentanaPrincipal() {
         initComponents();
-        
-        MainPanel panelPrincipal = new MainPanel();
-        this.add(panelPrincipal, BorderLayout.CENTER);
-        
-        this.controlPanel = new ControlPanel();
-        this.add(this.controlPanel, BorderLayout.WEST);
-        
-        this.controlPanel.inicia(this, panelPrincipal);
+
+        panelGrafica = new PanelGrafica();
+        panelConfig = new PanelConfig();
+    }
+
+    public void crear() {
+        add(panelGrafica, BorderLayout.CENTER);
+        add(panelConfig, BorderLayout.WEST);
+        panelConfig.crear(panelGrafica);
+
+        setTitle("Aproximación de raíces.");
+        setSize(735, 560);
+        setResizable(false);
+        setVisible(true);
     }
 
     /**
@@ -64,20 +72,21 @@ public class MainWindow extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(MainWindow.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(VentanaPrincipal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(MainWindow.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(VentanaPrincipal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(MainWindow.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(VentanaPrincipal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(MainWindow.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(VentanaPrincipal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new MainWindow().setVisible(true);
+                new VentanaPrincipal().setVisible(true);
             }
         });
     }
