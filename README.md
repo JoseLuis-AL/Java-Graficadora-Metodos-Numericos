@@ -18,14 +18,14 @@ El objetivo de este trabajo es demostrar el conocimiento sobre el lenguaje de pr
 	- Cuando encuentre una raíz debe mostrar su posición en la gráfica y su valor en el panel.
 	- Los campos no necesarios para el método seleccionado deben estar deshabilitados.
 
+## Usar otra función
+De momento solo es posible usar una función diferente modificando las funciones `f` y `df` en la clase `Aproximacion`. Esto podría cambiar en un futuro.
+
 ## Interfaz
 
 <p align="center">
   <img  src="Imagenes/nuevaUI.png">
 </p>
-
-## Usar otra función
-De momento solo es posible usar una función diferente modificando las funciones `f` y `df` en la clase `Aproximacion`. Esto podría cambiar en un futuro.
 
 ## Ejemplo
 
